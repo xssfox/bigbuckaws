@@ -1,7 +1,7 @@
 (Almost) Free Video Hosting provided by AWS Demo by [@xssfox](https://twitter.com/xssfox)
 ==
 
-Ever wanted to host 1080p 60fps video but don't want to pay the hosting bill? By (ab)using some of AWS's features we can host up to 75GB of traffic to millions of viewers for less than $50.
+Ever wanted to host 1080p 60fps video but don't want to pay the hosting bill? By (ab)using some of AWS's features we can serve DVD quality content to a million clients for ~$10USD
 
 [Demo video](http://bbb-lambda.s3-website.us-east-2.amazonaws.com/bbb.m3u8) 
 --
