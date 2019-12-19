@@ -143,4 +143,4 @@ You can probably script this.
 
 Inspiration
 ==
-There was a blog post I read about using files in Google Drive that were hiding video files for a HLS streaming service, but I can't find it anymore :( If you know of it please let me know.
+Laurent Meyer did a [great write up](https://medium.com/@laurentmeyer/deep-dive-in-the-illegal-streaming-world-cd11fae63497) about Google Drive streamers using PNG to cover their tracks.
