@@ -14,7 +14,7 @@ How does it work?
 
 AWS lets us upload 75GB of Lambda functions. Each function can be 50MB in size. We simply split up the video into Lambda functions. There's a few problems with this though, first off Lambda only allows zip files. How do we get around this, we zip up the video.
 
-Now we have another problem, to play the video we'd need to unzip it. That's where we cam do two little tricks, first when we zip up the file with 0% compression. This allows the original file to remain intact, but the zipping process just wraps some headers around the files (like a tarball). But video players aren't going to want to play a zip file, so that's where HLS standards come in to the rescue.
+Now we have another problem, to play the video we'd need to unzip it. That's where we can do two little tricks, first when we zip up the file with 0% compression. This allows the original file to remain intact, but the zipping process just wraps some headers around the files (like a tarball). But video players aren't going to want to play a zip file, so that's where HLS standards come in to the rescue.
 
 By using HLS we can split the file into multiple chunks and create a playlist of videos to play seamlessly together. A m3u8 HLS file looks something like this 
 ```
